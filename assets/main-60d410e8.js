@@ -5148,14 +5148,14 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
 const enrutador = {
   // Objeto (diccionario) con todas las rutas y su vista asociada
   rutas: {
-    home: __vitePreload(() => import("./homeVista-8697db73.js"), true ? ["./homeVista-8697db73.js","./pokemons-cb0017c3.js","./partida-377bfa23.js"] : void 0, import.meta.url),
+    home: __vitePreload(() => import("./homeVista-f36585c5.js"), true ? ["./homeVista-f36585c5.js","./pokemons-146a3daa.js","./partida-ed43f0fe.js"] : void 0, import.meta.url),
     // Usuarios
     //adminUsuarios: import('../vistas/admin/adminVista.js'),
-    registro: __vitePreload(() => import("./registroVista-347a4fe2.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVista-c8356c49.js"), true ? [] : void 0, import.meta.url),
-    perfiles: __vitePreload(() => import("./perfil-12340e7c.js"), true ? [] : void 0, import.meta.url),
-    pokemons: __vitePreload(() => import("./juegoPokemon-ddb8ec78.js"), true ? ["./juegoPokemon-ddb8ec78.js","./pokemons-cb0017c3.js"] : void 0, import.meta.url),
-    partidas: __vitePreload(() => import("./partida-366be1ba.js"), true ? ["./partida-366be1ba.js","./partida-377bfa23.js"] : void 0, import.meta.url)
+    registro: __vitePreload(() => import("./registroVista-86a8b874.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVista-2acf90f8.js"), true ? [] : void 0, import.meta.url),
+    perfiles: __vitePreload(() => import("./perfil-e3a21175.js"), true ? [] : void 0, import.meta.url),
+    pokemons: __vitePreload(() => import("./juegoPokemon-cb301986.js"), true ? ["./juegoPokemon-cb301986.js","./pokemons-146a3daa.js"] : void 0, import.meta.url),
+    partidas: __vitePreload(() => import("./partida-6d13d28e.js"), true ? ["./partida-6d13d28e.js","./partida-ed43f0fe.js"] : void 0, import.meta.url)
   },
   // Método que obtiene la ruta del navegador
   router: async () => {

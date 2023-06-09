@@ -1,4 +1,4 @@
-import { P as Perfil } from "./main-4506ec5d.js";
+import { P as Perfil } from "./main-60d410e8.js";
 const perfil = {
   template: `
   <h1>Administración de incidencias</h1>

@@ -1,4 +1,4 @@
-import { s as supabase } from "./main-4506ec5d.js";
+import { s as supabase } from "./main-60d410e8.js";
 class Pokemons {
   // Mapping de propiedades de la tabla perfiles
   constructor(id = null, nombre = null, tipo = null, pokedex = null, created_at = null, imagen = null) {
