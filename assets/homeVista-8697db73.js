@@ -1,6 +1,6 @@
-import { P as Pokemons } from "./pokemons-5fbc601b.js";
-import { g as getDefaultExportFromCjs, c as commonjsGlobal, U as User } from "./main-503c0c60.js";
-import { P as Partidas } from "./partida-39ba242c.js";
+import { P as Pokemons } from "./pokemons-cb0017c3.js";
+import { g as getDefaultExportFromCjs, c as commonjsGlobal, U as User } from "./main-4506ec5d.js";
+import { P as Partidas } from "./partida-377bfa23.js";
 class Pokemon {
   // Mapping de propiedades de la tabla perfiles
   constructor(idP = null, id = null, nombre = null, imagen = null, x = null, y = null, velocidad = null, tamaño = null, html = null, tipo = null) {

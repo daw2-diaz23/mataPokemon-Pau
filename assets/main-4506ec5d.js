@@ -5148,14 +5148,14 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
 const enrutador = {
   // Objeto (diccionario) con todas las rutas y su vista asociada
   rutas: {
-    home: __vitePreload(() => import("./homeVista-4e885c8a.js"), true ? ["./homeVista-4e885c8a.js","./pokemons-5fbc601b.js","./partida-39ba242c.js"] : void 0, import.meta.url),
+    home: __vitePreload(() => import("./homeVista-8697db73.js"), true ? ["./homeVista-8697db73.js","./pokemons-cb0017c3.js","./partida-377bfa23.js"] : void 0, import.meta.url),
     // Usuarios
     //adminUsuarios: import('../vistas/admin/adminVista.js'),
-    registro: __vitePreload(() => import("./registroVista-07fd4bd7.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVista-f4becc53.js"), true ? [] : void 0, import.meta.url),
-    perfiles: __vitePreload(() => import("./perfil-ca5036a1.js"), true ? [] : void 0, import.meta.url),
-    pokemons: __vitePreload(() => import("./juegoPokemon-44c0f161.js"), true ? ["./juegoPokemon-44c0f161.js","./pokemons-5fbc601b.js"] : void 0, import.meta.url),
-    partidas: __vitePreload(() => import("./partida-6b6b3886.js"), true ? ["./partida-6b6b3886.js","./partida-39ba242c.js"] : void 0, import.meta.url)
+    registro: __vitePreload(() => import("./registroVista-347a4fe2.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVista-c8356c49.js"), true ? [] : void 0, import.meta.url),
+    perfiles: __vitePreload(() => import("./perfil-12340e7c.js"), true ? [] : void 0, import.meta.url),
+    pokemons: __vitePreload(() => import("./juegoPokemon-ddb8ec78.js"), true ? ["./juegoPokemon-ddb8ec78.js","./pokemons-cb0017c3.js"] : void 0, import.meta.url),
+    partidas: __vitePreload(() => import("./partida-366be1ba.js"), true ? ["./partida-366be1ba.js","./partida-377bfa23.js"] : void 0, import.meta.url)
   },
   // Método que obtiene la ruta del navegador
   router: async () => {
@@ -11880,7 +11880,7 @@ const menuUsuario = {
           <span id="emailUsuarioLogueado" class="pe-3 text-dark"></span>
             <img
               id="imgAvatar"
-              src="/recursos/avatar.svg"
+              src="https://img.freepik.com/iconos-gratis/pikachu_318-196537.jpg"
               alt="Logo"
               width="30"
               height="30"
@@ -12034,7 +12034,7 @@ const menuUsuario = {
         window.location.href = "/#/home";
       });
     } else {
-      const imgAvatar = "/recursos/avatar.svg";
+      const imgAvatar = "https://img.freepik.com/iconos-gratis/pikachu_318-196537.jpg";
       document.querySelector("#imgAvatar").src = imgAvatar;
       document.querySelector("#emailUsuarioLogueado").innerHTML = "";
     }
@@ -12048,7 +12048,7 @@ const header = {
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="#/home">
       <img
-        src="/recursos/pokemon.svg"
+        src="https://www.freepnglogos.com/uploads/pokemon-symbol-logo-png-31.png"
         alt=""
         width="30"
         height="30"
