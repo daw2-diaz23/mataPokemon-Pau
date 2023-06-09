@@ -1,5 +1,5 @@
-import { P as Pokemons } from "./pokemons-146a3daa.js";
-import "./main-60d410e8.js";
+import { P as Pokemons } from "./pokemons-cb0017c3.js";
+import "./main-4506ec5d.js";
 const juegoPokemon = {
   template: `
   <h1>Administración de incidencias</h1>

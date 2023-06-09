@@ -1,4 +1,4 @@
-import { U as User, h as header } from "./main-60d410e8.js";
+import { U as User, h as header } from "./main-4506ec5d.js";
 const loginVista = {
   template: `
   
@@ -60,7 +60,7 @@ const loginVista = {
           console.log("logeado con exito");
           const divUsuarioLogeado = document.querySelectorAll("#emailUsuarioLogueado");
           divUsuarioLogeado[0].innerHTML = usuarioLogeado.email;
-          window.location.href = "mataPokemon-Pau/home";
+          window.location.href = "/#/home";
         } catch (error) {
           console.error("No se ha podido iniciar sesión", error);
           window.alert("No se ha podido iniciar sesión");
